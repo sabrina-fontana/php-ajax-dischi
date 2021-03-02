@@ -2,11 +2,46 @@
 
 $discs = [
   [
+    'poster' => "https://upload.wikimedia.org/wikipedia/en/3/30/The_Animals_%28American_album%29.jpg",
+    'title' => "The Animals",
+    'author' => "The Animals",
+    'genre' => "Rock",
+    'year' => "1964"
+  ],
+  [
+    'poster' => "https://upload.wikimedia.org/wikipedia/en/b/b6/Dynasty_%28album%29_cover.jpg",
+    'title' => "Dynasty",
+    'author' => "Kiss",
+    'genre' => "Hard rock",
+    'year' => "1979"
+  ],
+  [
+    'poster' => "https://upload.wikimedia.org/wikipedia/it/c/ce/Il_cielo_in_una_stanza_Mina_1960.jpg",
+    'title' => "Il cielo in una stanza",
+    'author' => "Mina",
+    'genre' => "Musica d'autore",
+    'year' => "1960"
+  ],
+  [
+    'poster' => "https://img.discogs.com/ku0H1WxjRbZrm25YV7f0YBUjp9M=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2803223-1420217186-2914.jpeg.jpg",
+    'title' => "Azzurro / Una carezza in un pugno",
+    'author' => "Adriano Celentano",
+    'genre' => "Pop",
+    'year' => "1968"
+  ],
+  [
     'poster' => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
     'title' => "New Jersey",
     'author' => "Bon Jovi",
     'genre' => "Rock",
     'year' => "1988"
+  ],
+  [
+    'poster' => "https://img.discogs.com/6JGssMXMxkAjmuAWHnHQQh8BsyE=/fit-in/600x580/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1733628-1239911556.jpeg.jpg",
+    'title' => "Opera prima",
+    'author' => "Pooh",
+    'genre' => "Pop",
+    'year' => "1971"
   ],
   [
     'poster' => "https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg",

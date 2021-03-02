@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #1E2D3B;
-  min-height: 100vh;
-}
-
 .container {
   width: 1070px;
   height: 100%;
@@ -17,7 +12,6 @@ body {
 }
 
 header {
-  width: 100%;
   height: 100px;
   background: #2e3a46;
   color: white;
@@ -27,38 +21,41 @@ header img {
   margin-top: 10px;
 }
 
-.discs-container {
+main {
+  background: #1E2D3B;
+}
+main .discs-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 100px 0;
 }
-.discs-container .disc {
+main .discs-container .disc {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   flex-basis: 200px;
-  padding: 20px;
+  padding: 15px;
   margin: 10px 20px;
-  height: 360px;
+  height: 370px;
   background: #2e3a46;
   text-align: center;
 }
-.discs-container .disc img {
+main .discs-container .disc img {
   max-width: 100%;
 }
-.discs-container .disc h3 {
+main .discs-container .disc h3 {
   margin: 20px 0;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
 }
-.discs-container .disc .author {
+main .discs-container .disc .author {
   color: grey;
   font-size: 20px;
 }
-.discs-container .disc .year {
+main .discs-container .disc .year {
   color: grey;
 }
