@@ -6,6 +6,6 @@ Solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al car
 **2^ MILESTONE**: *index.html*\
 Attraverso l’utilizzo di AJAX: al caricamento della pagina ajax chiederà attraverso una chiamata i dischi a php e li stamperà.
 
-**bonus**:\
-- Creazione select per filtrare i dischi in base al genere.\
+**BONUS**:
+- Creazione select per filtrare i dischi in base al genere.
 - Prova http_response_code 400 e catch con axios.
