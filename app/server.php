@@ -3,10 +3,10 @@ require_once __DIR__ . '/../database/database.php';
 
 // se nella chiamata http c'è la chiave genre con un valore filtro l'array jsonDiscs
 if (array_key_exists('genre', $_GET) && !empty($_GET['genre'])) {
-  $query = strtolower($_GET['genere']);
-  $dischi = array_filter($dischi, function ($keyValue) use ($query) {
-        return (strpos(strtolower($keyValue['genre']),$query)!== false);
-    });
+  // filtro ogni disco all'interno di $discs e ritorno solo quelli il cui genere ha come valore $_GET['genre'], ossia il genere selezionato dall'utente
+  $discs = array_filter($discs, function($disc) {
+    return (strpos($disc['genre'], $_GET['genre']) !== false);
+  });
 }
 
 header('Content-Type: application/json');

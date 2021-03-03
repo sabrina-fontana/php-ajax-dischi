@@ -13,10 +13,6 @@
   margin: 0 auto;
 }
 
-body {
-  min-height: 100vh;
-}
-
 header {
   height: 100px;
   background: $header-bg;
@@ -41,6 +37,7 @@ header {
 
 main {
   background: $main-bg;
+  min-height: calc(100vh - 100px);
 
   .discs-container {
     display: flex;

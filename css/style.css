@@ -11,10 +11,6 @@
   margin: 0 auto;
 }
 
-body {
-  min-height: 100vh;
-}
-
 header {
   height: 100px;
   background: #2e3a46;
@@ -36,6 +32,7 @@ header .container select {
 
 main {
   background: #1E2D3B;
+  min-height: calc(100vh - 100px);
 }
 main .discs-container {
   display: flex;
