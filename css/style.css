@@ -52,7 +52,7 @@ main .discs-container .disc {
   flex-basis: 225px;
   padding: 15px;
   margin: 10px 20px;
-  height: 370px;
+  height: 380px;
   background: #2e3a46;
   text-align: center;
 }
