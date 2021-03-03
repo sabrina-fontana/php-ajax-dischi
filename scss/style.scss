@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+body {
+  min-height: 100vh;
+}
+
 header {
   height: 100px;
   background: $header-bg;
@@ -29,8 +33,6 @@ main {
 
   .discs-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     padding: 100px 0;
 
@@ -39,7 +41,7 @@ main {
       justify-content: flex-start;
       align-items: center;
       flex-direction: column;
-      flex-basis: 200px;
+      flex-basis: 225px; //1070px / 4 - 40px (margin)
       padding: 15px;
       margin: 10px 20px;
       height: 370px;

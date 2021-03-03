@@ -7,9 +7,10 @@ mounted() {
   let that = this;
 
   // chiamata axios a server.php
-  axios.get('http://localhost/php-ajax-dischi/app/server.php')
+  axios
+  .get("http://localhost/php-ajax-dischi/app/server.php")
   .then(function(resp) {
-    that.discsArray = resp.data.response
+    that.discsArray = resp.data;
     console.log(that.discsArray);
   })
 }
