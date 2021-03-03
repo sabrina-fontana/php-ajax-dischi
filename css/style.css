@@ -11,14 +11,27 @@
   margin: 0 auto;
 }
 
+body {
+  min-height: 100vh;
+}
+
 header {
   height: 100px;
   background: #2e3a46;
   color: white;
 }
-header img {
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container img {
   height: 50px;
-  margin-top: 10px;
+}
+header .container select {
+  margin-left: 10px;
+  outline: none;
+  border-radius: 5px;
 }
 
 main {

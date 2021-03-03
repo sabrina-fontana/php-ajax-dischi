@@ -22,9 +22,20 @@ header {
   background: $header-bg;
   color: white;
 
-  img {
-    height: 50px;
-    margin-top: 10px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 50px;
+    }
+
+    select {
+      margin-left: 10px;
+      outline: none;
+      border-radius: 5px;
+    }
   }
 }
 
