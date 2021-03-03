@@ -3,7 +3,8 @@ el: '#app',
 data: {
   discsArray: [],
   genresArray: [],
-  genreSelected: ''
+  genreSelected: '',
+  error: false
 },
 mounted() {
   let that = this;
@@ -22,11 +23,17 @@ mounted() {
 },
 methods: {
   changeGenre: function() {
+    this.error = false;
     let that = this;
     axios
     .get("http://localhost/php-ajax-dischi/app/server.php?genre=" + that.genreSelected)
     .then(function(resp) {
       return that.discsArray = resp.data;
+    })
+    .catch(function(error) {
+      console.log(error);
+      that.discsArray = [];
+      that.error = true;
     })
   }
 }

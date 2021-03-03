@@ -39,6 +39,12 @@ main {
   background: $main-bg;
   min-height: calc(100vh - 100px);
 
+  .error {
+    font-size: 30px;
+    color: $title-color;
+    text-align: center;
+  }
+
   .discs-container {
     display: flex;
     flex-wrap: wrap;

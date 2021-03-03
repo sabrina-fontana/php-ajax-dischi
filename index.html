@@ -18,6 +18,7 @@
                 <span>Seleziona un genere musicale</span>
                 <select v-model="genreSelected" @change="changeGenre">
                   <option value="">all</option>
+                  <option value="nessun genere">prova Errore</option>
                   <option v-for="genre in genresArray" :value="genre">{{genre}}</option>
                 </select>
               </div>
@@ -25,6 +26,7 @@
       </header>
 
       <main>
+        <div class="error" v-if="error">Error 400 - prova a ricaricare la pagina</div>
         <div class="discs-container container">
             <div class="disc" v-for="disc in discsArray">
                 <img :src="disc.poster" alt="">
